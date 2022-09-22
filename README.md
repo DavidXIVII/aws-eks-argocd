@@ -1,6 +1,9 @@
 # Amazon EKS Cluster
 This repository contains source code to provision an EKS cluster in AWS using Terraform. 
 
+## Insperation:
+https://github.com/LukeMwila/amazon-eks-cluster
+
 ## Prerequisites
 * AWS account
 * AWS profile configured with CLI on local machine

@@ -81,5 +81,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 ## Deploy a manifest using the cli
 
-1. `argocd app create weatherapp --repo https://github.com/DavidXIVII/weather-deployment-k8s.git --path eks --dest-server https://kubernetes.default.svc --dest-namespace default`
+1. 
+```argocd app create weatherapp --repo https://github.com/DavidXIVII/weather-deployment-k8s.git --path eks --dest-server https://kubernetes.default.svc --dest-namespace default
+```
 
